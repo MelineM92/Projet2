@@ -1,0 +1,37 @@
+@font-face
+
+/*Téléchargement de la police Raleway*/
+    {
+    font-family: 'Raleway';
+    src: url('static/Raleway-Black.ttf'),
+        url('static/Raleway-BlackItalic.ttf') url('Raleway-VariableFont_wght.ttf') url('Raleway-Italic-VariableFont_wght.ttf')
+}
+
+* {
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
+}
+
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+h3 {
+    font-weight: bold;
+}
